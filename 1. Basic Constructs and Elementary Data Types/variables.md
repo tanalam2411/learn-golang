@@ -19,18 +19,27 @@
   
   func main() {
   	var x int
-  	var y float32 = 0.1
-  	var name string
+  	var x1 int = 10
+  	var y float32
+  	var y1 float32 = 10.01
+  	var lang string
+  	var lang1 string = "Golang"
   
   	fmt.Printf("x - Type: %T, value: %v\n", x, x)
+  	fmt.Printf("x1 - Type: %T, value: %v\n", x1, x1)
   	fmt.Printf("y - Type: %T, value: %v\n", y, y)
-  	fmt.Printf("name - Type: %T, value: %v\n", name, name)
+  	fmt.Printf("y1 - Type: %T, value: %v\n", y1, y1)
+  	fmt.Printf("lang - Type: %T, value: %v\n", lang, lang)
+  	fmt.Printf("lang1 - Type: %T, value: %v\n", lang1, lang1)
   }
   ```
   ```bash
   x - Type: int, value: 0
-  y - Type: float32, value: 0.1
-  name - Type: string, value: 
+  x1 - Type: int, value: 10
+  y - Type: float32, value: 0
+  y1 - Type: float32, value: 10.01
+  lang - Type: string, value: 
+  lang1 - Type: string, value: Golang
   ```
 
 - ```go var v1, v2 int = 10, 20```: multiple variables can be declared together in a single statement but should be of one type
